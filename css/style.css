@@ -12,6 +12,10 @@
     clear: both;
 }
 
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
 .container {
    width: 80%;
    margin: 10px auto; 
@@ -19,14 +23,25 @@
 
 /* HEADER */
 header {
-    height: 50px;
+    height: 80px;
     margin-bottom: 10px;
 }
 
 .header-logo {
-    width: 80px;
+    width: 100px;
     border-right: 1px solid lightgrey;
     padding-right: 1em;
+}
+
+ul {
+    list-style: none;
+    padding-top: 1em;
+}
+
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5em;
 }
 
 /* MAIN */
