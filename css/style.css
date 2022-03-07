@@ -16,6 +16,7 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
 }
+
 .container {
    width: 80%;
    margin: 10px auto; 
@@ -36,19 +37,35 @@ header {
 ul {
     list-style: none;
     padding-top: 1em;
+    color: inherit;
 }
 
 li {
     display: inline-block;
     text-transform: uppercase;
     padding: 0.5em;
+    color: grey;
 }
 
 /* MAIN */
-.banner {
-    background-color: #e1d67a;
-    height: 200px;
+.banner-container {
+    position: relative;
+    color: white;
+}
+
+.banner-img {
+    height: 350px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
     margin-bottom: 10px;
+}
+
+.banner-text {
+    width: 60%;
+    position: absolute;
+    bottom: 5em;
+    left: 3em;
 }
 
 section {
